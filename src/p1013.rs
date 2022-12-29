@@ -16,7 +16,7 @@ impl Solution {
             .skip(1)
             .skip_while(|i| *i != last / 3 * 2)
             .skip(1)
-            .skip_while(|i| *i != last).count() > 0
+            .skip_while(|i| *i != last).next().is_some()
     }
 }
 
