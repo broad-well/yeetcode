@@ -1,6 +1,4 @@
-struct Solution {
-
-}
+struct Solution;
 
 impl Solution {
     #[inline]

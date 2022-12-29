@@ -1,6 +1,4 @@
-struct Solution {
-
-}
+struct Solution;
 
 use std::collections::BTreeSet;
 
