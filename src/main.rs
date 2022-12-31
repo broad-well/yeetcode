@@ -5,3 +5,4 @@ mod p1013;
 mod p225_profiler;
 mod p290;
 mod p345;
+mod p1025;
