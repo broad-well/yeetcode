@@ -30,8 +30,8 @@ mod tests {
         assert!(Solution::is_boomerang(vec![vec![1,1],vec![2,3],vec![3,2]]));
         assert!(!Solution::is_boomerang(vec![vec![1,1],vec![2,2],vec![3,3]]));
         assert!(!Solution::is_boomerang(vec![vec![1,1],vec![2,1],vec![3,1]]));
-        assert!(Solution::is_boomerang(vec![vec![1,2],vec![1,-2],vec![1,-3]]));
-        assert!(!Solution::is_boomerang(vec![vec![1,2],vec![1,-2],vec![2,-3]]));
+        assert!(!Solution::is_boomerang(vec![vec![1,2],vec![1,-2],vec![1,-3]]));
+        assert!(Solution::is_boomerang(vec![vec![1,2],vec![1,-2],vec![2,-3]]));
         assert!(Solution::is_boomerang(vec![vec![0,0],vec![0,2],vec![2,1]]));
     }
 }
