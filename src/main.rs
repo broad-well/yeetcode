@@ -7,3 +7,5 @@ mod p290;
 mod p345;
 mod p1025;
 mod p2099;
+
+mod p1748;
