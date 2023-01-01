@@ -11,3 +11,4 @@ mod p1342;
 mod p1748;
 mod p303;
 mod p1037;
+mod p1763;
