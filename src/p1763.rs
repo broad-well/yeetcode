@@ -57,6 +57,9 @@ impl Solution {
             } else {
                 break;
             }
+            if chars.len() - start_index < longest.len() {
+                break;
+            }
         }
         longest.into_iter().collect()
     }
