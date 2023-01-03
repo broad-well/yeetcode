@@ -16,3 +16,7 @@ mod p283;
 mod p445;
 mod p496;
 mod p455;
+mod p1331;
+mod p1047;
+mod p1422;
+mod p860;
