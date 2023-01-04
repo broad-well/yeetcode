@@ -27,8 +27,8 @@ impl Solution {
             });
         nums.into_iter()
             .filter(|x| {
-                if let Some(freq) = top_freq.get(x) {
-                    if *freq > 0 {
+                if let Some(freq) = top_freq.get(x).cloned() {
+                    if freq > 0 {
                         top_freq.insert(*x, freq - 1);
                         return true;
                     }
