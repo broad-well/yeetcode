@@ -30,3 +30,4 @@ mod p219;
 mod p747;
 mod p844;
 mod p20;
+mod p1512;
