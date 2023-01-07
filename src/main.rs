@@ -34,3 +34,5 @@ mod p1512;
 mod p938;
 mod p387;
 mod p1700;
+mod p1752;
+mod p976;
