@@ -37,3 +37,4 @@ mod p1700;
 mod p1752;
 mod p976;
 mod p2068;
+mod p70;
